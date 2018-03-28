@@ -22,6 +22,12 @@
         "../node_modules/bootstrap/dist/css/bootstrap.css",
         "sass/styles.scss"
       ],
+      "stylePreprocessorOptions": {
+        "includePaths" : [
+          "sass",
+          "app"
+        ]
+      },
       "scripts": [],
       "environmentSource": "environments/environment.ts",
       "environments": {

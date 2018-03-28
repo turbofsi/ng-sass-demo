@@ -1,0 +1,18 @@
+@import "_variables";
+@import "_mixins";
+
+
+.about-list {
+    padding: 10px;
+}
+
+@for $i from 1 through 5 {
+    #btn-list-#{$i} {
+        @extend .about-list;
+        button {
+            background-color: lighten($font-primary, $i*3);
+            color: darken($font-secondary, $i*20);
+        }
+    }
+}
+

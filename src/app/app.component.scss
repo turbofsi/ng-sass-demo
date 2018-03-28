@@ -1,0 +1,10 @@
+@import "_variables";
+@import "_mixins";
+.top-menu {
+    background-color: $background-primary;
+    color: $font-secondary;
+
+    a {
+        color: $font-secondary;
+    }
+}
